@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeThird_Person_Shooter_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x998A623F,
+				0x142A8219,
 				0x35137D30,
 				METADATA_PARAMS(nullptr, 0)
 			};
