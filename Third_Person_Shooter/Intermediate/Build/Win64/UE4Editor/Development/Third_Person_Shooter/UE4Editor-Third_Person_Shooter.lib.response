@@ -7,9 +7,11 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "D:\Projects\3rd_Person_Shooter\Third_Person_Shooter\Intermediate\Build\Win64\Third_Person_ShooterEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Projects\3rd_Person_Shooter\Third_Person_Shooter\Intermediate\Build\Win64\UE4Editor\Development\Third_Person_Shooter\Gun.cpp.obj"
 "D:\Projects\3rd_Person_Shooter\Third_Person_Shooter\Intermediate\Build\Win64\UE4Editor\Development\Third_Person_Shooter\Shooter.cpp.obj"
 "D:\Projects\3rd_Person_Shooter\Third_Person_Shooter\Intermediate\Build\Win64\UE4Editor\Development\Third_Person_Shooter\Third_Person_Shooter.cpp.obj"
 "D:\Projects\3rd_Person_Shooter\Third_Person_Shooter\Intermediate\Build\Win64\UE4Editor\Development\Third_Person_Shooter\Third_Person_ShooterGameModeBase.cpp.obj"
+"D:\Projects\3rd_Person_Shooter\Third_Person_Shooter\Intermediate\Build\Win64\UE4Editor\Development\Third_Person_Shooter\Gun.gen.cpp.obj"
 "D:\Projects\3rd_Person_Shooter\Third_Person_Shooter\Intermediate\Build\Win64\UE4Editor\Development\Third_Person_Shooter\Shooter.gen.cpp.obj"
 "D:\Projects\3rd_Person_Shooter\Third_Person_Shooter\Intermediate\Build\Win64\UE4Editor\Development\Third_Person_Shooter\Third_Person_Shooter.init.gen.cpp.obj"
 "D:\Projects\3rd_Person_Shooter\Third_Person_Shooter\Intermediate\Build\Win64\UE4Editor\Development\Third_Person_Shooter\Third_Person_ShooterGameModeBase.gen.cpp.obj"

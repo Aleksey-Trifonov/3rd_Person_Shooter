@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Third_Person_Shooter.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{5007A953-D8CE-4197-A75B-59E9FE442551}</UniqueIdentifier>
+      <UniqueIdentifier>{C06744BD-F164-4497-BE81-9BD8E1E7EEA5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Third_Person_Shooter.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{C4B30747-A132-4DC5-8CBB-6CBF0294A998}</UniqueIdentifier>
+      <UniqueIdentifier>{6D5A3B05-4318-42F3-BE14-9478843530DA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,9 +23,18 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\Third_Person_Shooter">
-      <UniqueIdentifier>{7ED5EE8D-699C-4254-AB8A-BBEE7D40D8E1}</UniqueIdentifier>
+      <UniqueIdentifier>{78C235FC-CC82-4389-805E-8DEEBBB43AD6}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Third_Person_Shooter\Gun.cpp">
+      <Filter>Source\Third_Person_Shooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Third_Person_Shooter\Gun.h">
+      <Filter>Source\Third_Person_Shooter</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Third_Person_Shooter\Shooter.cpp">
       <Filter>Source\Third_Person_Shooter</Filter>
     </ClCompile>

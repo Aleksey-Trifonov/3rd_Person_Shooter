@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeThird_Person_Shooter_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x142A8219,
-				0x35137D30,
+				0xD0445C8F,
+				0x3B4EB21F,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);
