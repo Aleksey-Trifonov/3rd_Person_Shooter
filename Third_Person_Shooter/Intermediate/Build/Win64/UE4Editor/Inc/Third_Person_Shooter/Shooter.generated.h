@@ -60,6 +60,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AShooter); \
 
 #define Third_Person_Shooter_Source_Third_Person_Shooter_Shooter_h_14_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__RotationRate() { return STRUCT_OFFSET(AShooter, RotationRate); } \
+	FORCEINLINE static uint32 __PPO__MaxHealth() { return STRUCT_OFFSET(AShooter, MaxHealth); } \
+	FORCEINLINE static uint32 __PPO__Health() { return STRUCT_OFFSET(AShooter, Health); } \
 	FORCEINLINE static uint32 __PPO__GunClass() { return STRUCT_OFFSET(AShooter, GunClass); } \
 	FORCEINLINE static uint32 __PPO__Gun() { return STRUCT_OFFSET(AShooter, Gun); }
 

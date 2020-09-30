@@ -16,6 +16,8 @@ AShooter::AShooter()
 void AShooter::BeginPlay()
 {
 	Super::BeginPlay();
+
+	Health = MaxHealth;
 	
 	Gun = GetWorld()->SpawnActor<AGun>(GunClass);
 	GetMesh()->HideBoneByName(TEXT("weapon_r"), EPhysBodyOp::PBO_None);
@@ -28,6 +30,15 @@ void AShooter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+}
+
+float AShooter::TakeDamage(float DamageAmount, FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser)
+{
+	float DamageToApply = Super::TakeDamage(DamageAmount, DamageEvent, EventInstigator, DamageCauser);
+	DamageToApply = FMath::Min(Health, DamageToApply);
+	Health -= DamageToApply;
+
+	return DamageToApply;
 }
 
 // Called to bind functionality to input
