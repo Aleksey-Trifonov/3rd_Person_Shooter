@@ -14,8 +14,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define THIRD_PERSON_SHOOTER_Shooter_generated_h
 
 #define Third_Person_Shooter_Source_Third_Person_Shooter_Shooter_h_14_SPARSE_DATA
-#define Third_Person_Shooter_Source_Third_Person_Shooter_Shooter_h_14_RPC_WRAPPERS
-#define Third_Person_Shooter_Source_Third_Person_Shooter_Shooter_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define Third_Person_Shooter_Source_Third_Person_Shooter_Shooter_h_14_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execIsDead);
+
+
+#define Third_Person_Shooter_Source_Third_Person_Shooter_Shooter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execIsDead);
+
+
 #define Third_Person_Shooter_Source_Third_Person_Shooter_Shooter_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAShooter(); \

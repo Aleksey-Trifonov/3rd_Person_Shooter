@@ -20,8 +20,57 @@ void EmptyLinkFunctionForGeneratedCodeShooter() {}
 	THIRD_PERSON_SHOOTER_API UClass* Z_Construct_UClass_AGun_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 // End Cross Module References
+	DEFINE_FUNCTION(AShooter::execIsDead)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(bool*)Z_Param__Result=P_THIS->IsDead();
+		P_NATIVE_END;
+	}
 	void AShooter::StaticRegisterNativesAShooter()
 	{
+		UClass* Class = AShooter::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "IsDead", &AShooter::execIsDead },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AShooter_IsDead_Statics
+	{
+		struct Shooter_eventIsDead_Parms
+		{
+			bool ReturnValue;
+		};
+		static void NewProp_ReturnValue_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_AShooter_IsDead_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+	{
+		((Shooter_eventIsDead_Parms*)Obj)->ReturnValue = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_AShooter_IsDead_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(Shooter_eventIsDead_Parms), &Z_Construct_UFunction_AShooter_IsDead_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AShooter_IsDead_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AShooter_IsDead_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AShooter_IsDead_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Shooter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AShooter_IsDead_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AShooter, nullptr, "IsDead", nullptr, nullptr, sizeof(Shooter_eventIsDead_Parms), Z_Construct_UFunction_AShooter_IsDead_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AShooter_IsDead_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AShooter_IsDead_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AShooter_IsDead_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AShooter_IsDead()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AShooter_IsDead_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_AShooter_NoRegister()
 	{
@@ -30,6 +79,7 @@ void EmptyLinkFunctionForGeneratedCodeShooter() {}
 	struct Z_Construct_UClass_AShooter_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -60,6 +110,9 @@ void EmptyLinkFunctionForGeneratedCodeShooter() {}
 	UObject* (*const Z_Construct_UClass_AShooter_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_ACharacter,
 		(UObject* (*)())Z_Construct_UPackage__Script_Third_Person_Shooter,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_AShooter_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AShooter_IsDead, "IsDead" }, // 2165866423
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AShooter_Statics::Class_MetaDataParams[] = {
@@ -117,11 +170,11 @@ void EmptyLinkFunctionForGeneratedCodeShooter() {}
 		"Game",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_AShooter_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_AShooter_Statics::PropPointers),
 		0,
 		0x009000A4u,
@@ -136,7 +189,7 @@ void EmptyLinkFunctionForGeneratedCodeShooter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AShooter, 3894407237);
+	IMPLEMENT_CLASS(AShooter, 344782308);
 	template<> THIRD_PERSON_SHOOTER_API UClass* StaticClass<AShooter>()
 	{
 		return AShooter::StaticClass();
