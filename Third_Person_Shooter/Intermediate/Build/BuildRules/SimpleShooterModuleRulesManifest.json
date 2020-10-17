@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Projects\\3rd_Person_Shooter\\Third_Person_Shooter\\Source\\SimpleShooter\\SimpleShooter.Build.cs",
+		"D:\\Projects\\3rd_Person_Shooter\\Third_Person_Shooter\\Source\\SimpleShooter.Target.cs",
+		"D:\\Projects\\3rd_Person_Shooter\\Third_Person_Shooter\\Source\\SimpleShooterEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.3"
+}

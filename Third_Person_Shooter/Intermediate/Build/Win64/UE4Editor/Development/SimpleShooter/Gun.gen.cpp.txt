@@ -1,0 +1,5 @@
+D:\Projects\3rd_Person_Shooter\Third_Person_Shooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\Definitions.SimpleShooter.h
+C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\Projects\3rd_Person_Shooter\Third_Person_Shooter\Source\SimpleShooter/Gun.h
+D:\Projects\3rd_Person_Shooter\Third_Person_Shooter\Intermediate\Build\Win64\UE4Editor\Inc\SimpleShooter\Gun.generated.h

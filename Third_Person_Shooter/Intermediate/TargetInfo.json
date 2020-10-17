@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "SimpleShooter",
+			"Path": "D:\\Projects\\3rd_Person_Shooter\\Third_Person_Shooter\\Source\\SimpleShooter.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "SimpleShooterEditor",
+			"Path": "D:\\Projects\\3rd_Person_Shooter\\Third_Person_Shooter\\Source\\SimpleShooterEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

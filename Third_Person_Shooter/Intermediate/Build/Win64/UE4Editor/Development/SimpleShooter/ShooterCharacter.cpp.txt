@@ -1,0 +1,19 @@
+D:\Projects\3rd_Person_Shooter\Third_Person_Shooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\Definitions.SimpleShooter.h
+D:\Projects\3rd_Person_Shooter\Third_Person_Shooter\Source\SimpleShooter\ShooterCharacter.h
+C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+D:\Projects\3rd_Person_Shooter\Third_Person_Shooter\Intermediate\Build\Win64\UE4Editor\Inc\SimpleShooter\ShooterCharacter.generated.h
+D:\Projects\3rd_Person_Shooter\Third_Person_Shooter\Source\SimpleShooter\Gun.h
+D:\Projects\3rd_Person_Shooter\Third_Person_Shooter\Intermediate\Build\Win64\UE4Editor\Inc\SimpleShooter\Gun.generated.h
+C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/CapsuleComponent.h
+C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CapsuleComponent.generated.h
+D:\Projects\3rd_Person_Shooter\Third_Person_Shooter\Source\SimpleShooter\SimpleShooterGameModeBase.h
+C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+D:\Projects\3rd_Person_Shooter\Third_Person_Shooter\Intermediate\Build\Win64\UE4Editor\Inc\SimpleShooter\SimpleShooterGameModeBase.generated.h

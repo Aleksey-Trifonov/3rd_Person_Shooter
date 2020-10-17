@@ -1,0 +1,2 @@
+D:\Projects\3rd_Person_Shooter\Third_Person_Shooter\Intermediate\Build\Win64\UE4Editor\Development\SimpleShooter\Definitions.SimpleShooter.h
+D:\Projects\3rd_Person_Shooter\Third_Person_Shooter\Source\SimpleShooter\SimpleShooter.h
