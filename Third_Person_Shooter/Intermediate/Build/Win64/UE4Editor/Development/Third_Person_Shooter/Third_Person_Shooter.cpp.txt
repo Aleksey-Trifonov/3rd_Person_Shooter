@@ -1,2 +1,0 @@
-D:\Projects\3rd_Person_Shooter\Third_Person_Shooter\Intermediate\Build\Win64\UE4Editor\Development\Third_Person_Shooter\Definitions.Third_Person_Shooter.h
-D:\Projects\3rd_Person_Shooter\Third_Person_Shooter\Source\Third_Person_Shooter\Third_Person_Shooter.h
